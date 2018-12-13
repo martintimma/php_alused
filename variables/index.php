@@ -1,18 +1,22 @@
 <?php
-// muutujate defineerimine
-// $muutujaNimi = väärtus;
-$taisArv = 7;
-$reaalarv = 3.14;
-$sone = "7";
-$toevaartusTrue = true;
-$toevaartusFalse = false;
+// operaatorid
+$arv1 = 7;
+$arv2 = 24;
 
-echo "Täisarv = ".$taisArv."<br>";
-echo "Reaalarv = ".$reaalarv."<br>";
-echo "sone = ".$sone."<br>";
-echo "Tõeväärtus true = ".$toevaartusTrue."<br>";
-echo "Tõeväärtus false = ".$toevaartusFalse."<br>";
+echo "<h4>Matemaatilised operaatorid</h4>";
+echo $arv1." + ".$arv2." = ".($arv1 + $arv2)."<br>";
+echo $arv1." - ".$arv2." = ".($arv1 - $arv2)."<br>";
+echo $arv1." * ".$arv2." = ".($arv1 * $arv2)."<br>";
+echo $arv1." / ".$arv2." = ".($arv1 / $arv2)."<br>";
+echo $arv1." % ".$arv2." = ".($arv1 % $arv2)."<br>";
 
-echo gettype($sone)."<br>";
-settype($sone, "int");
-echo gettype($sone)."<br>";
+echo "<hr>";
+echo "<h4>Võrdlusoperaatorid</h4>";
+echo $arv1." < ".$arv2." see on ".($arv1 < $arv2)."<br>";
+echo $arv1." > ".$arv2." see on ".($arv1 > $arv2)."<br>";
+echo $arv1." <= ".$arv2." see on ".($arv1 <= $arv2)."<br>";
+echo $arv1." >= ".$arv2." see on ".($arv1 >= $arv2)."<br>";
+echo $arv1." == ".$arv2." see on ".($arv1 == $arv2)."<br>";
+echo $arv1." != ".$arv2." see on ".($arv1 != $arv2)."<br>";
+
+
