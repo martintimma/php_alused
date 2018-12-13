@@ -1,9 +1,9 @@
-<?php
 <html>
 <head>
 <title>Väljastus</title>
 </head>
 <body>
+<?php
 //teksti väljastus print käsuga
 print "See on esimene lause php keeles"."<br>";
 print "See on teine lause php keeles"."<br>";
