@@ -16,7 +16,13 @@ for($i = 0; $i < 3; $i++) {
 }
 
 $uuedkasutajad = array_merge($kasutajad, $lisakasutajad);
-for($i = 0; $i < $uuedkasutajad; $i++) {
+for($i = 0; $i < count($uuedkasutajad); $i++) {
     echo $uuedkasutajad[$i] . '<br>';
+}
+
+echo '<hr>';
+
+foreach ($uuedkasutajad as $kasutaja) {
+    echo $kasutaja.'<br>';
 }
 
